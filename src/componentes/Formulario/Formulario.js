@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { v4 as uuid } from 'uuid'; // importo destructurando versión 4 as=como 
 import "./Formulario.css";
 import Campo from "../Campo";
 import ListaOpciones from "../ListaOpciones";
@@ -27,7 +28,8 @@ const Formulario = (props) => {
             nombre,
             puesto,
             foto,
-            equipo
+            equipo,
+            id: uuid()
         } // estamos creando un objeto a partir de los valores que estamos ingresando
          //al dar click en crear, se creara objeto con los valores almacenados en el estado.
         registrarColaborador(datosAEnviar)
