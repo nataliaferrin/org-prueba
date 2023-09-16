@@ -1,0 +1,28 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box; /*lo maximo que puede ensanchar, independientemente del padding que coloquemos, no sale de la pantalla*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block; /*ocupa solamente el espacio necesario*/
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;    
+    justify-content: space-evenly; /* distribuye de forma uniforme */
+    flex-wrap: wrap; /*desdobla los items para que no se recorten si no entran*/
+}

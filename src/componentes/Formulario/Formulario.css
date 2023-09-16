@@ -1,0 +1,21 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;
+    gap: 20px; /*espacio entre columnas*/
+}
+
+.formulario form{
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    padding: 8px 100px;
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 25%);
+    flex: 1;/* indicar es que puede tener ahí un espacio del 50%*/
+}
+
+.formulario h2{
+    color: #212121;
+    font-size: 32px;
+    font-weight: 400;
+}
